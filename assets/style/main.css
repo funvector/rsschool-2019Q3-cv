@@ -159,3 +159,148 @@ a.btn_up{
   margin: 0 auto;
   padding: .5em;
 }
+
+.block_blue{
+  background-color: #f7fafe;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  margin: 97px 0 25px 0;
+}
+
+.flexbox_item h3{
+  color: #17528e;
+  font-size: 24px;
+  margin: 0 0 15px 0;
+}
+
+.flexbox_icon{
+  width: 140px;
+  height: 140px;
+  border: 2px solid #17528e;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  margin: 0 auto 52px;
+  position: relative;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.flexbox_icon::after{
+  content: '';
+  background-image: url(../img/sprite.png);
+  position: absolute;
+}
+
+.flexbox_icon_app::after{
+  width: 53px;
+  height: 73px;
+  background-position: -5px -4px;
+  top: calc(50% - 36.5px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.flexbox_icon_app:hover::after{
+  background-position: -5px -112px;
+}
+
+.flexbox_icon_design::after{
+  width: 75px;
+  height: 73px;
+  background-position: -93px 0px;
+  top: calc(50% - 36.5px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.flexbox_icon_design:hover::after{
+  background-position: -93px 262px;
+}
+
+.flexbox_icon_web::after{
+  width: 62px;
+  height: 73px;
+  background-position: -209px -1px;
+  top: calc(50% - 36.5px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.flexbox_icon_web:hover::after{
+  background-position: -209px -109px;
+}
+
+.flexbox_icon:hover{
+  background-color: #17528e;
+}
+
+.thumb{
+  position: relative;
+  overflow: hidden;
+  width: 360px;
+  height: 269px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.thumb::before{
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.thumb:hover{
+  background-color: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.thumb:hover::before{
+  content: '';
+  background-image: url(../img/dark-eye.svg);
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: calc(50% - 24px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 60px;
+  height: 48px;
+}
+
+.thumb img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  width: 360px;
+  height: 269px;
+  z-index: -100;
+}
