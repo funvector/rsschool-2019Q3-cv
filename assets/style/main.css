@@ -337,3 +337,38 @@ a.block_footer_link{
 .block_footer h2, .block_footer_flex div{
   align-self: center;
 }
+
+@media only screen and (max-height: 660px){
+  body{
+    font-size: 14px;
+  }
+
+  .banner-main_center{
+    top: 40px;
+  }
+
+  .banner-main_center img{
+    width: 125px;
+    margin: 0 0 15px 0;
+  }
+
+  .banner-main_center h1{
+    max-width: 474px;
+  }
+
+  .banner-main_center p{
+    margin: 0 auto 30px;
+    max-width: 729px; 
+    line-height: 25px;
+  }
+
+  h1, h2{
+    font-size: 30px;
+  }
+
+  a.banner-main_link{
+    font-size: 16px;
+    padding: 7px 0 9px 0;
+    max-width: 141px;
+  }
+}
