@@ -372,3 +372,170 @@ a.block_footer_link{
     max-width: 141px;
   }
 }
+
+@media only screen and (max-height: 500px){
+  .banner-main_center{
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    margin: 0 auto 20px;
+  }
+
+  a.banner-main_down{
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    bottom: inherit;
+  }
+
+  .banner-main{
+    height: inherit;
+    padding: 30px 0 45px;
+  }
+
+  a.banner-main_link{
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .block{
+    padding: 60px;
+  }
+
+  .flexbox{
+    display: inherit;
+    margin: 50px 0 25px 0;
+  }
+
+  .thumb{
+    margin: 0 auto;
+  }
+
+  .thumb, .thumb img{
+    width: 450px;
+  }
+
+  .flexbox_item{
+    margin-bottom: 30px;
+  }
+
+  .flexbox_item p{
+    max-width: 550px;
+  }
+
+  .flexbox_icon{
+    margin: 0 auto 30px;
+  }
+
+  .block_footer_flex{
+    display: inherit;
+  }
+
+  a.block_footer_link{
+    max-width: 203px;
+    padding: 14px 0 16px 0;
+  }
+
+  .block_footer_flex h2{
+    margin: 0 0 25px 0;
+  }
+
+  .block_footer{
+    padding: 50px 0;
+  }
+
+  .banner-main_center{
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 860px){
+  .banner-main_center h1{
+    font-size: 30px;
+  }
+
+  .banner-main_center{
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    margin: 0 auto 20px;
+  }
+
+  a.banner-main_down{
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    bottom: inherit;
+  }
+
+  .banner-main{
+    height: inherit;
+    padding: 30px 15px 45px;
+    width: calc(100% - 30px);
+  }
+
+  a.banner-main_link{
+    margin-bottom: 50px;
+  }
+
+  .block{
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  body{
+    font-size: 14px;
+  }
+
+  h1, h2, .banner-main_center h1{
+    font-size: 25px;
+    margin: 0 auto 35px;
+  }
+
+  a.banner-main_link, a.block_footer_link{
+    font-size: 16px;
+    padding: 7px 0 9px 0;
+    max-width: 141px;
+  }
+
+  .banner-main_center p{
+    line-height: 25px;
+    margin: 0 auto 30px;
+  }
+
+  .flexbox_icon{
+    width: 120px;
+    height: 120px;
+  }
+
+  .thumb{
+    display: block;
+  }
+
+  .thumb, .thumb img{
+    width: 100%;
+  }
+
+  .flexbox_item h3{
+    font-size: 20px;
+  }
+
+  .block p{
+    line-height: 30px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .thumb, .thumb img{
+    height: 170px;
+  }
+
+  .flexbox_item h3{
+    font-size:18px;
+  }
+}
