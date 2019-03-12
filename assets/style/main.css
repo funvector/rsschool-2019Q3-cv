@@ -1,0 +1,19 @@
+body, div, section{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+div, section{
+  box-sizing: border-box;
+}
+
+h1, h2{
+  font-size: 50px;
+}
+
+h2{
+  color: #17528e;
+  font-weight: 400;
+  margin: 0 0 46px 0;
+}
