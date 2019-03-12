@@ -148,3 +148,14 @@ a.btn_up{
   line-height: 35px;
   letter-spacing: 1px;
 }
+
+.block{
+  padding: 115px 0 105px 0;
+}
+
+.block p{
+  line-height: 35px;
+  max-width: 1093px;
+  margin: 0 auto;
+  padding: .5em;
+}
