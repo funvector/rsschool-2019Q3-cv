@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +77,6 @@
       <h2>Latest Works</h2>
       <div class="flexbox">
         <div class="flexbox_item">
-          <!-- чтобы сделать картинки ссылками на работы, нужно обернуть .thumb в <a> и убрать свойство cursor;) -->
           <div class="thumb">
             <img src="assets/img/im1.png" alt="">
           </div>
@@ -106,29 +105,6 @@
   </footer>
   <a href="#" class="btn_up"></a>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript"> 
-    $(function(){ 
-    $(window).scroll(function(){ 
-      if($(this).scrollTop()!=0){ 
-        $('.btn_up').fadeIn(); 
-      } 
-      else{ 
-        $('.btn_up').fadeOut(); 
-      } 
-      }); 
-      $('.btn_up').click(function(){ 
-      $('body,html').animate({scrollTop:0},500); 
-      }); 
-    }); 
-    $(function() { 
-    $('a[href="#scroll"]').click(function(event) { 
-      event.preventDefault() 
-        var el = $('.block_scroll'); 
-      $('body,html').animate({ 
-        scrollTop: $(el).offset().top 
-      }, 1000); 
-    });
-    });
-  </script>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 </html>
